@@ -23,5 +23,3 @@ def elGamalDecryption(xa: int, q: int, c1: int, c2: int)-> int:
     K: int = (c1 ** xa) % q
     return ((c2%q)* getPositiveModuloInverse(q, K)) % q
 
-print(elGamalDecryption(5, 19, 11, 5))
-print(getPositiveModuloInverse(1759,550))

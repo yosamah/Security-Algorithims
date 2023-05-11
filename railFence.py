@@ -28,6 +28,3 @@ def encryptRailFence(depth: int, message: str)-> str:
                 cypherMessage+= character
     return cypherMessage
 
-
-message: str = "1223456712234"
-print(encryptRailFence(3, message))
